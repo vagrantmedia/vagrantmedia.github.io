@@ -2983,6 +2983,10 @@ figcaption {
   .heading-style-big-h2 {
     font-size: 5em;
   }
+
+  .services_accordion-hover-container {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 479px) {
