@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Mon Sep 30 2024 09:12:21 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Mon Sep 30 2024 11:35:37 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="65a496b4ac27b9de68e34000" data-wf-site="65a496b3ac27b9de68e33fa7">
 <head>
   <meta charset="utf-8">
@@ -314,7 +314,7 @@ margin: 0rem !important;
                     <div class="spacer-small"></div>
                   </div>
                   <div class="services_accordion-hover-container">
-                    <div class="services_accordion-image-container"><img loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 258.21875px, 26vw" srcset="images/2148242207_12148242207.avif 500w, images/2148242207_1.avif 1000w" alt="" src="images/2148242207_1.avif" class="image-cover"></div>
+                    <div class="services_accordion-image-container"><img loading="lazy" sizes="(max-width: 767px) 100vw, 258.234375px" srcset="images/2148242207_12148242207.avif 500w, images/2148242207_1.avif 1000w" alt="" src="images/2148242207_1.avif" class="image-cover"></div>
                   </div>
                 </div>
                 <div class="services_accordion">
@@ -366,7 +366,7 @@ margin: 0rem !important;
                     <div class="spacer-small"></div>
                   </div>
                   <div class="services_accordion-hover-container">
-                    <div class="services_accordion-image-container"><img loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 258.21875px, 26vw" srcset="images/99_199.avif 500w, images/99_1.avif 1000w" alt="" src="images/99_1.avif" class="image-cover"></div>
+                    <div class="services_accordion-image-container"><img loading="lazy" sizes="(max-width: 767px) 100vw, 258.234375px" srcset="images/99_199.avif 500w, images/99_1.avif 1000w" alt="" src="images/99_1.avif" class="image-cover"></div>
                   </div>
                 </div>
                 <div class="services_accordion">
@@ -567,7 +567,7 @@ margin: 0rem !important;
               <div class="footer_component"><img src="images/VAGRANT.svg" loading="lazy" alt="" class="footer_top-image">
                 <div class="footer_top-wrapper">
                   <div class="footer_top-left-wrapper">
-                    <div class="text-size-large text-style-allcaps">A snippet about how we aim to transform advertising experiences in Hong Kong and beyond.</div>
+                    <div class="text-size-large text-style-allcaps">規模不是限制，我們讓每個品牌都有機會站在廣告的最前線。</div>
                     <div class="footer_locales-wrapper w-locales-list">
                       <div data-hover="false" data-delay="0" class="footer_locales-dropdown w-dropdown">
                         <div class="footer_locales-dropdown-toggle w-dropdown-toggle">
@@ -609,7 +609,12 @@ margin: 0rem !important;
                     <a href="#" class="footer_legal-link">PRIVACY POLICY</a>
                     <a href="#" class="footer_legal-link">TERMS OF USE</a>
                   </div>
-                  <div class="footer_legal-text">COPYRIGHT 2024</div>
+                  <div class="footer_legal-text">COPYRIGHT <span id="year">2024</span></div>
+                  <div class="hide w-embed w-script">
+                    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+                  </div>
                 </div>
               </div>
             </div>
