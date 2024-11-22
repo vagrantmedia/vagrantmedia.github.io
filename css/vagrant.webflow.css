@@ -16,10 +16,10 @@
   --background-color--background-warning: var(--base-color-system--warning-yellow);
   --text-color--text-warning: var(--base-color-system--warning-yellow-dark);
   --base-color-neutral--white: #fff;
+  --base-color-brand--blue-dark: #080331;
   --border-color--border-secondary: var(--base-color-neutral--neutral-dark);
   --base-color-brand--blue-light: #00bac6;
   --white: white;
-  --base-color-brand--blue-dark: #080331;
   --black: black;
   --base-color-brand--blue: #fff;
   --base-color-brand--pink-light: #ffaefe;
@@ -1390,13 +1390,20 @@ figcaption {
 
 .home-hero_button {
   background-color: var(--text-color--text-secondary);
+  border: 1px solid #fff0;
   border-radius: 5rem;
   justify-content: center;
   align-items: center;
   padding: .5em 1.25em;
   font-size: 1.5rem;
   text-decoration: none;
+  transition: border-color .2s, color .2s, background-color .2s;
   display: flex;
+}
+
+.home-hero_button:hover {
+  background-color: var(--base-color-brand--blue-dark);
+  border-color: #fff;
 }
 
 .home-hero_button-icon {
